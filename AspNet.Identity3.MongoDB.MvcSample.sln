@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AB33597D-6EB0-484B-B624-1F32462E698D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C031F98A-5AE1-4292-B416-AD81700D981C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet.Identity3.MongoDB.MvcSample", "src\AspNet.Identity3.MongoDB.MvcSample\AspNet.Identity3.MongoDB.MvcSample.xproj", "{28C317C4-A058-4FFA-83C4-A2A8EA97DBD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28C317C4-A058-4FFA-83C4-A2A8EA97DBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C317C4-A058-4FFA-83C4-A2A8EA97DBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C317C4-A058-4FFA-83C4-A2A8EA97DBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C317C4-A058-4FFA-83C4-A2A8EA97DBD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28C317C4-A058-4FFA-83C4-A2A8EA97DBD1} = {AB33597D-6EB0-484B-B624-1F32462E698D}
+	EndGlobalSection
+EndGlobal
