@@ -3,7 +3,7 @@
   "version": 2,
   "targets": {
     "DNX,Version=v4.5.1": {
-      "AspNet.Identity3.MongoDB/1.0.0-rc1-final-u1": {
+      "AspNet.Identity3.MongoDB/1.0.0-rc1-final-u2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.Identity": "3.0.0-rc1-final",
@@ -1989,7 +1989,7 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x86": {
-      "AspNet.Identity3.MongoDB/1.0.0-rc1-final-u1": {
+      "AspNet.Identity3.MongoDB/1.0.0-rc1-final-u2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.Identity": "3.0.0-rc1-final",
@@ -3978,7 +3978,7 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x64": {
-      "AspNet.Identity3.MongoDB/1.0.0-rc1-final-u1": {
+      "AspNet.Identity3.MongoDB/1.0.0-rc1-final-u2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.Identity": "3.0.0-rc1-final",
@@ -5968,12 +5968,12 @@
     }
   },
   "libraries": {
-    "AspNet.Identity3.MongoDB/1.0.0-rc1-final-u1": {
+    "AspNet.Identity3.MongoDB/1.0.0-rc1-final-u2": {
       "type": "package",
-      "sha512": "QcMRRt3jEQlhCITotGcD1X5lB9Gy7E3UyJ2YC1liR//rc8ibTjjV0HPl5G6FcULSuO4qWZeJYyNlGAaFVSPWQA==",
+      "sha512": "bKZPrstFBubuEHUcBQIynTkNHKdo2o6qZOSh5f6lZLuHw+YH0Y4SqP+fC85n4ffYYIJrGcGGr/KwLaMbbExs8g==",
       "files": [
-        "AspNet.Identity3.MongoDB.1.0.0-rc1-final-u1.nupkg",
-        "AspNet.Identity3.MongoDB.1.0.0-rc1-final-u1.nupkg.sha512",
+        "AspNet.Identity3.MongoDB.1.0.0-rc1-final-u2.nupkg",
+        "AspNet.Identity3.MongoDB.1.0.0-rc1-final-u2.nupkg.sha512",
         "AspNet.Identity3.MongoDB.nuspec",
         "lib/dnx451/AspNet.Identity3.MongoDB.dll",
         "lib/dnx451/AspNet.Identity3.MongoDB.xml"
@@ -8153,7 +8153,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "AspNet.Identity3.MongoDB >= 1.0.0-rc1-final-u1",
+      "AspNet.Identity3.MongoDB >= 1.0.0-rc1-final-*",
       "Microsoft.AspNet.Diagnostics >= 1.0.0-rc1-final",
       "Microsoft.AspNet.Authentication.Cookies >= 1.0.0-rc1-final",
       "Microsoft.AspNet.IISPlatformHandler >= 1.0.0-rc1-final",
