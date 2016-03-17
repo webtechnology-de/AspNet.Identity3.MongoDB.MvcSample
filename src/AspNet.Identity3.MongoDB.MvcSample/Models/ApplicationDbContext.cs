@@ -2,7 +2,7 @@
 
 namespace AspNet.Identity3.MongoDB.MvcSample.Models
 {
-    public class ApplicationDbContext : MongoIdentityContext<ApplicationUser, IdentityRole>
+    public class ApplicationDbContext : MongoIdentityContext<ApplicationUser, ApplicationRole>
     {
         private readonly IMongoDatabase _database;
 
@@ -13,7 +13,9 @@ namespace AspNet.Identity3.MongoDB.MvcSample.Models
             _database = client.GetDatabase(settings.MongoDatabaseName);
 
             this.Users = _database.GetCollection<ApplicationUser>("users");
-            this.Roles = _database.GetCollection<IdentityRole>("roles");
+            this.Roles = _database.GetCollection<ApplicationRole>("roles");
         }
+
+        
     }
 }

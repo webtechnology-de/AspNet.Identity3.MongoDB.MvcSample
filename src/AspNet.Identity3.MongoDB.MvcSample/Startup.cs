@@ -45,8 +45,8 @@ namespace AspNet.Identity3.MongoDB.MvcSample
             services.AddSingleton<ApplicationSettings>(a => settings);
             services.AddScoped<ApplicationDbContext>();
 
-            services.AddIdentity<ApplicationUser, IdentityRole>()
-                .AddMongoStores<ApplicationDbContext, ApplicationUser, IdentityRole>()
+            services.AddIdentity<ApplicationUser, ApplicationRole>()
+                .AddMongoStores<ApplicationDbContext, ApplicationUser, ApplicationRole>()
                 .AddDefaultTokenProviders();
 
             services.AddMvc();

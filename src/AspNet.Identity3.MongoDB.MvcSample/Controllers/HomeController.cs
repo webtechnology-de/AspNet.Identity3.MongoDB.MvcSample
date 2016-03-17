@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNet.Authorization;
 using Microsoft.AspNet.Mvc;
 
 namespace AspNet.Identity3.MongoDB.MvcSample.Controllers
@@ -13,6 +14,7 @@ namespace AspNet.Identity3.MongoDB.MvcSample.Controllers
             return View();
         }
 
+        [Authorize(Roles = "admin")]
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
